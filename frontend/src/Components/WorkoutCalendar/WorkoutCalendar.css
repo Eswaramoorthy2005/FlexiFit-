@@ -1,0 +1,136 @@
+.calendar-container {
+  width: 100%;
+  max-width: 900px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 80px; 
+  margin-left: 20%; 
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.calendar-header span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.calendar-header button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #3498db;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.calendar-header button:hover {
+  background-color: #2980b9;
+}
+
+.react-calendar {
+  border: none;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.react-calendar__tile {
+  padding: 10px;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid white; 
+}
+
+.react-calendar__tile--active {
+  background: #3498db;
+  color: white;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #2980b9;
+}
+
+.workout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.workout span {
+  font-size: 0.8rem;
+}
+
+.cl {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f9fa;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.stats div {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 22%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.stats div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.stats div span {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+button {
+  background-color: #7fbbe3;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}

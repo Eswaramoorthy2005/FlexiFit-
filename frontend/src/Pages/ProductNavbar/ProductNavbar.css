@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: #fff;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin: 0 15px;
+    position: relative;
+  }
+  
+  .navbar-item a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar-item:hover {
+    cursor: pointer;
+  }
+  
+  .navbar-item::after {
+    content: '\25BC'; /* Down arrow symbol */
+    font-size: 12px;
+    margin-left: 5px;
+    display: inline-block;
+  }
+  
+  .navbar-item:hover::after {
+    content: '\25B2'; /* Up arrow symbol */
+  }
+  

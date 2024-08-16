@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Profile Container */
+.profile-container {
+  max-width: 600px;
+  margin: 100px auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+.header {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+/* Profile Details */
+.profile-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Avatar */
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin: 0 20px 20px 0;
+  border: 5px solid #3498db;
+}
+
+/* Info Section */
+.info {
+  text-align: left;
+  max-width: 300px;
+}
+
+.info-item {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #555;
+}
+
+/* Done Button */
+.done-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.done-button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}

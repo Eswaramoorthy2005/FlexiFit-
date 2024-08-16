@@ -1,0 +1,170 @@
+
+.goal-page-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 16%; /* Adjust margin to fit the sidebar */
+}
+
+.goal-page-header {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #ddd;
+  text-align: center;
+}
+
+.goal-page-header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.goal-page-header p {
+  margin: 10px 0 0;
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.goal-page-active-goals {
+  margin-bottom: 20px;
+}
+
+.goal-page-active-goals h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.goal-page-goal {
+  background-color: #79bae5;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.goal-page-goal h3 {
+  margin: 0 0 10px;
+}
+
+.goal-page-goal p {
+  margin: 0 0 20px;
+  color: #000000;
+}
+
+.goal-page-goal-details {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.goal-page-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px;
+  text-align: center;
+  width: 120px; /* Adjust to ensure the elements are not too wide */
+}
+
+.goal-page-detail img {
+  margin-bottom: 5px;
+  width: 34px;
+  height: 34px;
+}
+
+.goal-page-detail span {
+  font-size: 1rem;
+  color: #333;
+}
+
+.goal-page-stop-goal {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.goal-page-stop-goal:hover {
+  background-color: #c0392b;
+}
+
+.goal-page-suggested-goals {
+  margin-bottom: 20px;
+}
+
+.goal-page-suggested-goals h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.goal-page-suggested-goal {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.goal-page-suggested-goal h3 {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+}
+
+.goal-page-suggested-goal p {
+  margin: 0 0 20px;
+  color: #777;
+}
+
+.goal-page-set-goal {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.goal-page-set-goal:hover {
+  background-color: #2980b9;
+}
+
+@media (max-width: 768px) {
+  .goal-page-container {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .goal-page-detail {
+    width: 100px;
+    margin: 5px 0;
+  }
+
+  .goal-page-header h1 {
+    font-size: 2rem;
+  }
+
+  .goal-page-header p {
+    font-size: 1rem;
+  }
+
+  .goal-page-goal-details {
+    flex-direction: column;
+  }
+
+  .goal-page-detail {
+    width: 100%;
+  }
+}

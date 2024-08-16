@@ -1,0 +1,62 @@
+.payment-page {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.payment-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.payment-form .form-group {
+    margin-bottom: 15px;
+}
+
+.payment-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.payment-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.submit-button, .back-to-cart-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit-button {
+    background-color: #17a2b8; /* Matching the button color from the cart page */
+}
+
+.submit-button:hover {
+    background-color: #138496; /* Slightly darker shade on hover */
+}
+
+.back-to-cart-button {
+    background-color: #6c757d; /* Grey button for back to cart */
+}
+
+.back-to-cart-button:hover {
+    background-color: #5a6268; /* Slightly darker grey on hover */
+}

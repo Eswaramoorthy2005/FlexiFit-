@@ -1,0 +1,146 @@
+ /* .beginner-page {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content-overlay {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.beginner-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white; 
+}
+
+.beginner-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.beginner-card {
+  width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.beginner-card-image {
+  width: 100%;
+  height: 250px;
+  border-radius: 8px 8px 0 0;
+}
+
+.beginner-card-title {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.beginner-card-description {
+  font-size: 14px;
+  color: #666;
+} 
+ */
+
+
+ .beginner-page {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(120deg, #1c3b5a, #071b2d); /* Deep, oceanic gradient */
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(60%) sepia(20%); /* Darker video with a slight sepia tone */
+}
+
+
+.beginner-header {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #f4f4f4;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  font-family: 'Cinzel', serif; /* Fantasy-themed font */
+}
+
+.beginner-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.beginner-card {
+  width: 380px;
+  border: 2px solid #0a2b47;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(10px);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.beginner-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.beginner-card-image {
+  width: 100%;
+  height: 240px;
+  border-radius: 12px 12px 0 0;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  transition: filter 0.3s ease;
+}
+
+.beginner-card:hover .beginner-card-image {
+  filter: brightness(110%);
+}
+
+.beginner-card-title {
+  font-size: 20px;
+  margin: 15px 0;
+  color: #f4f4f4;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.beginner-card-description {
+  font-size: 16px;
+  color: #d3d6d7;
+  font-family: 'Merriweather', serif;
+}
